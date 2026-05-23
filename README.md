@@ -31,7 +31,7 @@ docker build -t fictional-train .
 Run it locally:
 
 ```bash
-docker run --rm -p 3000:3000 fictional-train
+docker run --rm -p 5000:5000 fictional-train
 ```
 
 ## Learn More
