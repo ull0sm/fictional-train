@@ -1,0 +1,108 @@
+.page {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 48px 20px;
+}
+
+.main {
+  width: 100%;
+  max-width: 640px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #555;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+.addButton {
+  border: none;
+  border-radius: 8px;
+  background: #151515;
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 10px 12px;
+  gap: 10px;
+}
+
+.itemLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.itemLabel span {
+  overflow-wrap: anywhere;
+}
+
+.doneText {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.deleteButton {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fff;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.empty {
+  color: #666;
+  border: 1px dashed #d8d8d8;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+}
